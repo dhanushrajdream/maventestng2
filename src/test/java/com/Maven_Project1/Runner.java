@@ -21,6 +21,7 @@ public static WebDriver driver  =browserLaunch("chrome");
 		
 		
 		
+		
 		String url = File_Reader_Manager.getInstanceFRM().getInstanceCR().getUrl();  
         urlLaunch(url);                                                                                       //url
 		

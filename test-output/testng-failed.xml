@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.features.Timeout_Concept">
+      <class name="com.testng.features.Hard_Assert_Concept">
         <methods>
-          <include name="demo"/>
+          <include name="userprofile"/>
         </methods>
-      </class> <!-- com.testng.features.Timeout_Concept -->
+      </class> <!-- com.testng.features.Hard_Assert_Concept -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
